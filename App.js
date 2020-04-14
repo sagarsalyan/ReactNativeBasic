@@ -18,6 +18,11 @@ import AlertX from './component/AlertX';
 import GeoLocationX from './component/GeoLocationX';
 import AsyncStorageX from './component/AsyncStorageX';
 import SectionListX from './component/SectionListX';
+import AvatarX from './component/ReactNativeElements/AvatarX';
+import ButtonXE from './component/ReactNativeElements/ButtonXE';
+import InputX from './component/ReactNativeElements/InputX';
+import CheckBoxX from './component/ReactNativeElements/CheckBoxX';
+import SocialIconX from './component/ReactNativeElements/SocialIconX';
 
 export default class App extends React.Component {
   constructor() {
@@ -33,6 +38,7 @@ export default class App extends React.Component {
   render(){
     return (
       <View>
+        <Text>Sagar</Text>
         {/* <ScrollView>
         <FlexBox/>
         <List/>
@@ -52,8 +58,13 @@ export default class App extends React.Component {
         <TextX/>
         <AlertX/>
         <GeoLocationX/>
-        <AsyncStorageX/> */}
+        <AsyncStorageX/>
         <SectionListX/>
+        <AvatarX/>
+        <ButtonXE/>
+        <InputX/>
+        <CheckBoxX/> */}
+        <SocialIconX/>
       </View>
     );
   }

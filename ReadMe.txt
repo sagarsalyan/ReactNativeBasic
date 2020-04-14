@@ -17,3 +17,6 @@ If you want to run android emulator using android studio, come out of the curren
 
 Install WebView
 > expo install react-native-webview
+
+Install ReactNativeElements
+> npm install react-native-elements
