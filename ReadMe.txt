@@ -13,3 +13,7 @@ Create a project
 Eject the project
 If you want to run android emulator using android studio, come out of the current command line by pressing ctrl+c.
 > npm run eject
+
+
+Install WebView
+> expo install react-native-webview
